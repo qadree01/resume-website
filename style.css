@@ -13,9 +13,42 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 990px) {
   .container {
+    min-width: 605px;
     max-width: 605px;
+  }
+
+  .text-1 {
+    max-width: 415px;
+  }
+
+  .text-2 {
+    max-width: 415px;
+  }
+
+  .social {
+    max-width: 415px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1700px) {
+  .container {
+    min-width: 605px;
+    max-width: 880px;
+  }
+
+  .text-1 {
+    max-width: 415px;
+  }
+
+  .text-2 {
+    max-width: 415px;
+  }
+
+  .social {
+    max-width: 415px;
   }
 }
 
@@ -34,7 +67,7 @@ body {
 }
 
 .first-container {
-  height: 38vh;
+  height: 45vh;
   background-color: snow;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
@@ -44,7 +77,7 @@ body {
 }
 
 .second-container {
-  height: 20vh;
+  height: 25vh;
   background-color: rgb(66, 153, 255);
   color: white;
   display: flex;
@@ -63,8 +96,8 @@ body {
 
 .last-container {
   height: 28vh;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +106,7 @@ body {
 }
 
 .about {
-  width: 30%;
+  width: 25%;
   height: 45%;
   padding-right: 40px;
   box-sizing: border-box;
@@ -81,21 +114,22 @@ body {
   text-align: right;
   font-family: Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .text-1 {
-  height: 100%;
+  height: 90%;
   width: 60%;
   padding: 50px 50px 0px 40px;
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
+  font-size: 1.2rem;
   line-height: 1.75;
 }
 
 .recent {
-  width: 30%;
+  width: 25%;
   height: 60%;
   padding-right: 40px;
   box-sizing: border-box;
@@ -103,21 +137,22 @@ body {
   text-align: right;
   font-family: Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .text-2 {
-  height: 100%;
+  height: 90%;
   width: 60%;
-  padding: 40px 50px 0px 40px;
+  padding: 25px 50px 0px 40px;
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
+  font-size: 1.2rem;
   line-height: 2.25;
 }
 
 .contact {
-  width: 30%;
+  width: 25%;
   height: 65%;
   padding-right: 40px;
   box-sizing: border-box;
@@ -125,7 +160,7 @@ body {
   text-align: right;
   font-family: Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .social {
@@ -162,6 +197,8 @@ strong:hover {
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-pic {
@@ -169,7 +206,7 @@ strong:hover {
 }
 
 img {
-  width: 38%;
+  width: 45%;
   height: auto;
   margin: 10px auto;
   border-radius: 50%;
@@ -179,15 +216,16 @@ h1 {
   margin: 10px;
   font-family: "Lucida Sans", Geneva, Verdana, sans-serif;
   font-weight: lighter;
-  font-size: 2rem;
-  color: midnightblue;
+  font-size: 2.8rem;
+  color: black;
 }
 
 h3 {
   margin: 10px;
+  padding-top: 5px;
   font-family: "Geneva", Tahoma, sans-serif;
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 1.35em;
   color: slategray;
 }
 
